@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "523445505136",
+    "project_id": "solar-system-flutter",
+    "storage_bucket": "solar-system-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523445505136:android:a4888b305ed239fe2738b5",
+        "android_client_info": {
+          "package_name": "com.example.solar_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr1OC_jpj4lWPanZO51jIsRXuOeBmMhh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
