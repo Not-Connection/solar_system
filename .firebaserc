@@ -1,5 +1,18 @@
 {
   "projects": {
     "default": "solar-system-flutter"
-  }
+  },
+  "targets": {
+    "solar-system-flutter": {
+      "hosting": {
+        "satu": [
+          "solar-system-flutter"
+        ],
+        "dua": [
+          "2d-solar-system"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
