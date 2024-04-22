@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:solar_system/coba.dart';
 import 'package:solar_system/homepage/_index.dart';
 // import 'package:solar_system/home.dart';
 
@@ -13,6 +14,7 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // home: const SolarSystem(),
       home: const HomePage(),
+      // home: const MyHomePage(title: 'gggg'),
     );
   }
 }

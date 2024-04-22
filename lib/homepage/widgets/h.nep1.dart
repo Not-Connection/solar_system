@@ -1,19 +1,17 @@
-// ignore_for_file: file_names
-
 import 'package:flutter/material.dart';
 import 'package:solar_system/planets/_index.dart';
 
-class Ura1 extends StatelessWidget {
-  const Ura1({
+class Nep1 extends StatelessWidget {
+  const Nep1({
     super.key,
   });
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.fromLTRB(355, 450, 10, 10),
-      height: 50,
-      width: 50,
+      margin: const EdgeInsets.fromLTRB(945, 290, 0, 10),
+      height: 75,
+      width: 75,
       color: Colors.transparent,
       child: TextButton(
         style: const ButtonStyle(
@@ -22,7 +20,7 @@ class Ura1 extends StatelessWidget {
         onPressed: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => const Uranus()),
+            MaterialPageRoute(builder: (context) => const Neptunus()),
           );
         },
         child: const Text(

@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:solar_system/planets/_index.dart';
+import 'package:solar_system/planets_potrait/_index.dart';
 
-class Nep1 extends StatelessWidget {
-  const Nep1({
+class Sun2 extends StatelessWidget {
+  const Sun2({
     super.key,
   });
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.fromLTRB(422, 300, 10, 10),
-      height: 55,
-      width: 50,
+      margin: const EdgeInsets.fromLTRB(0, 240, 310, 200),
+      height: 150,
+      width: 150,
       color: Colors.transparent,
       child: TextButton(
         style: const ButtonStyle(
@@ -20,7 +20,7 @@ class Nep1 extends StatelessWidget {
         onPressed: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => const Neptunus()),
+            MaterialPageRoute(builder: (context) => const PlanetsPotrait()),
           );
         },
         child: const Text(

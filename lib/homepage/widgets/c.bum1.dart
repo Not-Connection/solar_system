@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:solar_system/planets/_index.dart';
 
-class Jup1 extends StatelessWidget {
-  const Jup1({
+class Bum1 extends StatelessWidget {
+  const Bum1({
     super.key,
   });
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.fromLTRB(130, 545, 210, 10),
-      height: 80,
+      margin: const EdgeInsets.fromLTRB(630, 400, 0, 0),
+      height: 75,
       width: 80,
       color: Colors.transparent,
       child: TextButton(
@@ -20,7 +20,7 @@ class Jup1 extends StatelessWidget {
         onPressed: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => const Jupiter()),
+            MaterialPageRoute(builder: (context) => const Bumi()),
           );
         },
         child: const Text(

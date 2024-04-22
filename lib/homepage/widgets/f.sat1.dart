@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:solar_system/planets/_index.dart';
 
-class Ven1 extends StatelessWidget {
-  const Ven1({
+class Sat1 extends StatelessWidget {
+  const Sat1({
     super.key,
   });
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.fromLTRB(165, 280, 270, 200),
-      height: 50,
-      width: 50,
+      margin: const EdgeInsets.fromLTRB(780, 150, 10, 10),
+      height: 110,
+      width: 110,
       color: Colors.transparent,
       child: TextButton(
         style: const ButtonStyle(
@@ -20,7 +20,7 @@ class Ven1 extends StatelessWidget {
         onPressed: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => const Venus()),
+            MaterialPageRoute(builder: (context) => const Saturnus()),
           );
         },
         child: const Text(

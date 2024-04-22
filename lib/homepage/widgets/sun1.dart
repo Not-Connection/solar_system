@@ -9,7 +9,7 @@ class Sun1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.fromLTRB(0, 260, 310, 200),
+      margin: const EdgeInsets.fromLTRB(350, 270, 310, 200),
       height: 150,
       width: 150,
       color: Colors.transparent,
