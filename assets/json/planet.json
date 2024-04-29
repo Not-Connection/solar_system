@@ -1,0 +1,85 @@
+{
+  "data": [
+    {
+      "name": "Sun",
+      "image_url": "assets/images/sun.png",
+      "description": "The Earth orbits around the Sun, which is the closest star to the Earth, and why it looks so big. It is 93 million miles away from the Earth!",
+      "rotation_time": "24.47 DAYS",
+      "revolution_time": "",
+      "radius": 696340,
+      "average_temp": 5500
+    },
+    {
+      "name": "Mercury",
+      "image_url": "assets/images/mercury.png",
+      "description": "Mercury is the smallest planet in the Solar System and the closest to the Sun. It's orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.",
+      "rotation_time": "58.6 DAYS",
+      "revolution_time": "87.97 DAYS",
+      "radius": 24397,
+      "average_temp": 430
+    },
+    {
+      "name": "Venus",
+      "image_url": "assets/images/venus.png",
+      "description": "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.",
+      "rotation_time": "243 DAYS",
+      "revolution_time": "224.7 DAYS",
+      "radius": 6051.8,
+      "average_temp": 460
+    },
+    {
+      "name": "Earth",
+      "image_url": "assets/images/earth.png",
+      "description": "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
+      "rotation_time": "0.99 DAYS",
+      "revolution_time": "365.26 DAYS",
+      "radius": 6371,
+      "average_temp": 16
+    },
+    {
+      "name": "Mars",
+      "image_url": "assets/images/mars.png",
+      "description": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the 'Red Planet'.",
+      "rotation_time": "1.03 DAYS",
+      "revolution_time": "1.88 YEARS",
+      "radius": 3389.5,
+      "average_temp": -28
+    },
+    {
+      "name": "Jupyter",
+      "image_url": "assets/images/jupyter.png",
+      "description": "Jupyter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass two and a half times that of all the other planets in the Solar System combined, but less than one-thousandth the mass of the Sun.",
+      "rotation_time": "9.03 HOURS",
+      "revolution_time": "11.86 YEARS",
+      "radius": 69911,
+      "average_temp": -108
+    },
+    {
+      "name": "Saturn",
+      "image_url": "assets/images/saturn.png",
+      "description": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupyter. It is a gas giant with an average radius about nine and a half times that of Earth. It only has one-eighth the average density of Earth.",
+      "rotation_time": "10.8 HOURS",
+      "revolution_time": "29.46 YEARS",
+      "radius": 58232,
+      "average_temp": -138
+    },
+    {
+      "name": "Uranus",
+      "image_url": "assets/images/uranus.png",
+      "description": "Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus according to Greek mythology, was the great-grandfather of Ares. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.",
+      "rotation_time": "17.2 HOURS",
+      "revolution_time": "84 YEARS",
+      "radius": 25362,
+      "average_temp": -195
+    },
+    {
+      "name": "Neptune",
+      "image_url": "assets/images/neptune.png",
+      "description": "Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, more massive than its near-twin Uranus.",
+      "rotation_time": "16.08 HOURS",
+      "revolution_time": "164.79 YEARS",
+      "radius": 24622,
+      "average_temp": -201
+    }
+  ]
+}

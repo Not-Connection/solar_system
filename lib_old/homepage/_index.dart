@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import '../home.dart';
+import 'widgets/c.bum1.dart';
+import 'widgets/e.jup1.dart';
+import 'widgets/d.mar1.dart';
+import 'widgets/a.mer1.dart';
+import 'widgets/g.ura1.dart';
+import 'widgets/moon1.dart';
+import 'widgets/h.nep1.dart';
+import 'widgets/f.sat1.dart';
+import 'widgets/sun1.dart';
+import 'widgets/sun2.dart';
+import 'widgets/b.ven1.dart';
+part 'homepage.dart';

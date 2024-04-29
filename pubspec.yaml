@@ -14,8 +14,17 @@ dependencies:
 
   cupertino_icons: ^1.0.6
   firebase_core: ^2.29.0
-  google_fonts: ^5.1.0
-  flutter_native_splash: ^2.4.0
+  flutter_native_splash: ^2.0.2
+  states_rebuilder: ^6.4.0
+  navigation_builder: ^0.0.4
+  three_dart: ^0.0.16
+  three_dart_jsm: ^0.0.10
+  flutter_gl: ^0.0.21
+  equatable: ^2.0.5
+  very_good_analysis: ^5.1.0
+  google_fonts: ^4.0.4
+  rename: ^3.0.2
+  intl: ^0.18.1
 
 dev_dependencies:
   flutter_test:
@@ -27,3 +36,5 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+    - assets/textures/
+    - assets/json/
