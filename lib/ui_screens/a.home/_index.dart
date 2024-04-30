@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:states_rebuilder/states_rebuilder.dart';
 
@@ -17,5 +16,4 @@ part 'widgets/d.home.button_planet.dart';
 part 'widgets/e.home.echo.dart';
 
 HomeData get _dt => Data.home.st;
-HomeCtrl get _ct => Ctrl.home;
 PlanetServ get _sv => Serv.planet;

@@ -15,7 +15,10 @@ class SampleSatuView extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Hero(tag: 10, child: Image.asset('assets/images/planetarium.png')),
+            Center(
+              child:
+                  SizedBox(height: 200, width: 200, child: Hero(tag: 100, child: Image.asset('assets/images/sun.png'))),
+            ),
             const SampleSatuCharlie(),
             const SampleSatuDelta(),
             const SampleSatuEcho(),

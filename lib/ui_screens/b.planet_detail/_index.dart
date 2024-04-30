@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:states_rebuilder/scr/state_management/listeners/on_reactive.dart';
 import 'package:states_rebuilder/scr/state_management/state_management.dart';
 import 'package:states_rebuilder/states_rebuilder.dart';
 

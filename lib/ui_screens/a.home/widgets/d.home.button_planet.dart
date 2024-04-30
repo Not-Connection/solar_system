@@ -6,6 +6,7 @@ class HomeButtonPlanet extends StatelessWidget {
   final List<double> marginFromLTRB;
   final String planetName;
   final String image;
+  final String route;
 
   final int herotag;
   const HomeButtonPlanet({
@@ -16,41 +17,36 @@ class HomeButtonPlanet extends StatelessWidget {
     required this.planetName,
     required this.image,
     required this.herotag,
+    required this.route,
   });
 
   @override
   Widget build(BuildContext context) {
-    return OnReactive(
-      () => Hero(
-        tag: herotag,
-        child: Container(
-          margin: EdgeInsets.fromLTRB(
-            marginFromLTRB[0],
-            marginFromLTRB[1],
-            marginFromLTRB[2],
-            marginFromLTRB[3],
-          ),
-          height: height,
-          width: width,
-          color: Colors.transparent,
-          child: InkWell(
-            onTap: () => _ct.selectPlanet(planetName),
-            // onTap: () => nav.to(Routes.planetDetail),
-            child: Image.asset(image),
-          ),
-          // child: TextButton(
-          //   style: TextButton.styleFrom(
-          //     foregroundColor: Colors.transparent,
-          //   ),
-          //   onPressed: () {
-          //     _ct.selectPlanet(planetName);
-          //   },
-          //   child: const Text(
-          //     "",
-          //   ),
-          // ),
-        ),
+    return Container(
+      margin: EdgeInsets.fromLTRB(
+        marginFromLTRB[0],
+        marginFromLTRB[1],
+        marginFromLTRB[2],
+        marginFromLTRB[3],
       ),
+      height: height,
+      width: width,
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: () => nav.to(route),
+        child: Hero(tag: herotag, child: Image.asset(image)),
+      ),
+      // child: TextButton(
+      //   style: TextButton.styleFrom(
+      //     foregroundColor: Colors.transparent,
+      //   ),
+      //   onPressed: () {
+      //     _ct.selectPlanet(planetName);
+      //   },
+      //   child: const Text(
+      //     "",
+      //   ),
+      // ),
     );
   }
 }

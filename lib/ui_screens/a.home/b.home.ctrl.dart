@@ -9,6 +9,6 @@ class HomeCtrl {
 
   selectPlanet(String planetName) {
     _sv.setSelectedPlanet(planetName);
-    nav.to(Routes.planetDetail);
+    // nav.to(Routes.planetDetail);
   }
 }
