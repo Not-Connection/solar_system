@@ -36,8 +36,6 @@
     "*solar_system": true,
     "*solar_system.*": true,
     "*test.*": true,
-    "*web": true,
-    "*web.*": true,
     "*windows": true,
     "*windows.*": true,
     "test": true
