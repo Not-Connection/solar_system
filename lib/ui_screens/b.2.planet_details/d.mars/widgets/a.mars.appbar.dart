@@ -6,7 +6,7 @@ class MarsAppbar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: OnReactive(() => Text(_dt.rxTitle.st)),
-    );
+        // title: OnReactive(() => Text(_dt.rxTitle.st)),
+        );
   }
 }

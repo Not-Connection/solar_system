@@ -1,7 +1,6 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:solar_system/ui_widgets/misc/_index.dart';
 import 'package:states_rebuilder/states_rebuilder.dart';
 

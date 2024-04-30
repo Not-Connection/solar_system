@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:solar_system/ui_widgets/misc/_index.dart';
 import 'package:states_rebuilder/states_rebuilder.dart';
 
 import '../../../app/_index.dart';
@@ -17,4 +18,3 @@ part 'widgets/e.venus.echo.dart';
 
 VenusData get _dt => Data.venus.st;
 VenusCtrl get _ct => Ctrl.venus;
-

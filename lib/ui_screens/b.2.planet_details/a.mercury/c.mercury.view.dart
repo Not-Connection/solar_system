@@ -18,37 +18,14 @@ class MercuryView extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(
-                  color: Colors.transparent,
-                  height: 300,
-                  width: 330,
-                  child: Hero(
-                    tag: _dt.herotag,
-                    child: Image.asset(
-                      _dt.imageurl,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
+                ImageBox(
+                  herotag: _dt.herotag,
+                  imageurl: _dt.imageurl,
                 ),
                 const SizedBox(width: 10),
-                SizedBox(
-                  width: 720,
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text(
-                        style: GoogleFonts.itim(),
-                        textScaler: const TextScaler.linear(4),
-                        _dt.name,
-                      ),
-                      Text(
-                        style: GoogleFonts.itim(),
-                        textScaler: const TextScaler.linear(2),
-                        textAlign: TextAlign.center,
-                        _dt.description,
-                      ),
-                    ],
-                  ),
+                DescBox(
+                  name: _dt.name,
+                  description: _dt.description,
                 ),
               ],
             ),
