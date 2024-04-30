@@ -1,15 +1,15 @@
 flutter_native_splash:
   color: "#000000"
-  image: assets/images/solar_logo.png
+  image: assets/images/planetarium.png
 
   #  color_dark: "#000000"
   #  image_dark: assets/logos/splash.png
   #  branding_dark: assets/logos/splash.png
 
   android_12:
-    image: assets/images/solar_logo.png
+    image: assets/images/planetarium.png
     icon_background_color: "#000000"
   #    image_dark: assets/logos/splash.png
   #    icon_background_color_dark: "#000000"
 
-  web: false
+  web: true

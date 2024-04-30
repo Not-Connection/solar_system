@@ -11,21 +11,49 @@ class PlanetDetailView extends StatelessWidget {
         preferredSize: Size.fromHeight(56),
         child: PlanetDetailAppbar(),
       ),
+      // body: Row(
+      //   children: [
+      //     Hero(
+      //       tag: 1,
+      //       child: Container(
+      //         color: Colors.transparent,
+      //         height: 300,
+      //         width: 330,
+      //         child: Image.asset(
+      //           "assets/images/sun.png",
+      //           fit: BoxFit.contain,
+      //         ),
+      //       ),
+      //     ),
+      //     const SizedBox(width: 10),
+      //     SizedBox(
+      //       width: 500,
+      //       child: Text(
+      //         style: GoogleFonts.itim(),
+      //         textScaler: const TextScaler.linear(2),
+      //         textAlign: TextAlign.center,
+      //         'sunnnn',
+      //       ),
+      //     ),
+      //   ],
+      // )
       body: OnBuilder.data(
         listenTo: _dt.rxPlanetDetail,
         builder: (data) => Center(
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Hero(
-                tag: 1,
-                child: Container(
-                  color: Colors.transparent,
-                  height: 300,
-                  width: 300,
-                  child: Image.asset(
-                    "${data?.imageUrl}",
-                    fit: BoxFit.cover,
+              OnReactive(
+                () => Hero(
+                  tag: {data?.herotag},
+                  child: Container(
+                    color: Colors.transparent,
+                    height: 300,
+                    width: 330,
+                    child: Image.asset(
+                      "${data?.imageUrl}",
+                      fit: BoxFit.contain,
+                    ),
                   ),
                 ),
               ),
@@ -38,6 +66,9 @@ class PlanetDetailView extends StatelessWidget {
                   textAlign: TextAlign.center,
                   '${data?.description}',
                 ),
+              ),
+              Text(
+                '${data?.herotag}',
               ),
             ],
           ),

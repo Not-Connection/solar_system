@@ -7,7 +7,8 @@
       "rotation_time": "24.47 DAYS",
       "revolution_time": "",
       "radius": 696340,
-      "average_temp": 5500
+      "average_temp": 5500,
+      "herotag": 1
     },
     {
       "name": "Mercury",
@@ -16,7 +17,9 @@
       "rotation_time": "58.6 DAYS",
       "revolution_time": "87.97 DAYS",
       "radius": 24397,
-      "average_temp": 430
+      "average_temp": 430,
+      "herotag": 2
+
     },
     {
       "name": "Venus",
@@ -25,7 +28,9 @@
       "rotation_time": "243 DAYS",
       "revolution_time": "224.7 DAYS",
       "radius": 6051.8,
-      "average_temp": 460
+      "average_temp": 460,
+      "herotag": 3
+
     },
     {
       "name": "Earth",
@@ -34,7 +39,9 @@
       "rotation_time": "0.99 DAYS",
       "revolution_time": "365.26 DAYS",
       "radius": 6371,
-      "average_temp": 16
+      "average_temp": 16,
+      "herotag": 4
+
     },
     {
       "name": "Mars",
@@ -43,7 +50,10 @@
       "rotation_time": "1.03 DAYS",
       "revolution_time": "1.88 YEARS",
       "radius": 3389.5,
-      "average_temp": -28
+      "average_temp": -28,
+      "herotag": 5
+
+
     },
     {
       "name": "Jupyter",
@@ -52,7 +62,9 @@
       "rotation_time": "9.03 HOURS",
       "revolution_time": "11.86 YEARS",
       "radius": 69911,
-      "average_temp": -108
+      "average_temp": -108,
+      "herotag": 6
+
     },
     {
       "name": "Saturn",
@@ -61,7 +73,9 @@
       "rotation_time": "10.8 HOURS",
       "revolution_time": "29.46 YEARS",
       "radius": 58232,
-      "average_temp": -138
+      "average_temp": -138,
+      "herotag": 7
+
     },
     {
       "name": "Uranus",
@@ -70,7 +84,9 @@
       "rotation_time": "17.2 HOURS",
       "revolution_time": "84 YEARS",
       "radius": 25362,
-      "average_temp": -195
+      "average_temp": -195,
+      "herotag": 8
+
     },
     {
       "name": "Neptune",
@@ -79,7 +95,9 @@
       "rotation_time": "16.08 HOURS",
       "revolution_time": "164.79 YEARS",
       "radius": 24622,
-      "average_temp": -201
+      "average_temp": -201,
+      "herotag": 9
+
     }
   ]
 }

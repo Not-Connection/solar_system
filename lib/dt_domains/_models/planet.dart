@@ -8,6 +8,7 @@ class Planet {
   final String revolutionTime;
   final double radius;
   final double averageTemp;
+  final int herotag;
   Planet({
     this.name = '',
     this.imageUrl = '',
@@ -16,6 +17,7 @@ class Planet {
     this.revolutionTime = '',
     this.radius = 0.0,
     this.averageTemp = 0.0,
+    this.herotag = 0,
   });
 
   Planet copyWith({
@@ -26,6 +28,7 @@ class Planet {
     String? revolutionTime,
     double? radius,
     double? averageTemp,
+    int? herotag,
   }) {
     return Planet(
       name: name ?? this.name,
@@ -35,6 +38,7 @@ class Planet {
       revolutionTime: revolutionTime ?? this.revolutionTime,
       radius: radius ?? this.radius,
       averageTemp: averageTemp ?? this.averageTemp,
+      herotag: herotag ?? this.herotag,
     );
   }
 
@@ -48,6 +52,7 @@ class Planet {
     result.addAll({'revolution_time': revolutionTime});
     result.addAll({'radius': radius});
     result.addAll({'average_temp': averageTemp});
+    result.addAll({'herotag': herotag});
 
     return result;
   }
@@ -61,6 +66,7 @@ class Planet {
       revolutionTime: map['revolution_time'] ?? '',
       radius: map['radius']?.toDouble() ?? 0.0,
       averageTemp: map['average_temp']?.toDouble() ?? 0.0,
+      herotag: map['herotag']?.toInt() ?? 0,
     );
   }
 
@@ -70,7 +76,7 @@ class Planet {
 
   @override
   String toString() {
-    return 'Planet(name: $name, imageUrl: $imageUrl, description: $description, rotationTime: $rotationTime, revolutionTime: $revolutionTime, radius: $radius, averageTemp: $averageTemp)';
+    return 'Planet(name: $name, imageUrl: $imageUrl, description: $description, rotationTime: $rotationTime, revolutionTime: $revolutionTime, radius: $radius, averageTemp: $averageTemp, herotag: $herotag)';
   }
 
   @override
@@ -84,7 +90,8 @@ class Planet {
         other.rotationTime == rotationTime &&
         other.revolutionTime == revolutionTime &&
         other.radius == radius &&
-        other.averageTemp == averageTemp;
+        other.averageTemp == averageTemp &&
+        other.herotag == herotag;
   }
 
   @override
@@ -95,6 +102,7 @@ class Planet {
         rotationTime.hashCode ^
         revolutionTime.hashCode ^
         radius.hashCode ^
-        averageTemp.hashCode;
+        averageTemp.hashCode ^
+        herotag.hashCode;
   }
 }

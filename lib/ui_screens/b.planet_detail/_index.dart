@@ -1,7 +1,7 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:states_rebuilder/scr/state_management/listeners/on_reactive.dart';
+import 'package:states_rebuilder/scr/state_management/state_management.dart';
 import 'package:states_rebuilder/states_rebuilder.dart';
 
 import '../../app/_index.dart';
@@ -13,7 +13,6 @@ part 'b.planet_detail.ctrl.dart';
 part 'c.planet_detail.view.dart';
 part 'widgets/a.planet_detail.appbar.dart';
 part 'widgets/b.planet_detail.fab.dart';
-part 'widgets/c.planet_detail.charlie.dart';
 part 'widgets/d.planet_detail.delta.dart';
 part 'widgets/e.planet_detail.echo.dart';
 

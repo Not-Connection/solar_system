@@ -5,19 +5,20 @@ class SampleSatuView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      appBar: PreferredSize(
+    return Scaffold(
+      appBar: const PreferredSize(
         preferredSize: Size.fromHeight(56),
         child: SampleSatuAppbar(),
       ),
-      floatingActionButton: SampleSatuFab(),
+      floatingActionButton: const SampleSatuFab(),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SampleSatuCharlie(),
-            SampleSatuDelta(),
-            SampleSatuEcho(),
+            Hero(tag: 10, child: Image.asset('assets/images/planetarium.png')),
+            const SampleSatuCharlie(),
+            const SampleSatuDelta(),
+            const SampleSatuEcho(),
           ],
         ),
       ),

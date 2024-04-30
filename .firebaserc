@@ -10,6 +10,9 @@
         ],
         "dua": [
           "2d-solar-system"
+        ],
+        "tiga": [
+          "3d-planetarium"
         ]
       }
     }
